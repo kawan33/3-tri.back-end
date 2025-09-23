@@ -1,0 +1,6 @@
+services:
+ - type: web
+   name: meu-flask-app
+   env: pynthon
+   buildCommand: gunicorn app:app
+   plan: free
